@@ -156,6 +156,10 @@ function debugMode(message) {
 
 }
 
+function initPlayerList() {
+    // gather all players in server and make a array out of 0,0 scores
+}
+
 client.on('ready', () => {
     console.log('Duelist is ready.');
 });
